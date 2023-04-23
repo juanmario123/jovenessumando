@@ -33,7 +33,7 @@ export default function Home() {
     const socialNetworks = Object.keys(selectedMunicipio).map((key) => {
         if (key === 'name' || key === 'logo') return false
         return key
-    }).filter((key) => key)
+    }).filter((key) => key).sort((a, b) => a.localeCompare(b))
 
     const Buttons = socialNetworks.map((name) => (
         <>
