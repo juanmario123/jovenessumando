@@ -64,7 +64,7 @@ export default function Home() {
                                        width="300"/>
                                 <span className={styles.spanLider}> Samuel Terán</span>
                                 <span className={styles.spanNombramiento}> Líder Juvenil Estatal</span>
-                                <Link href={'#'} target={"_blank"}
+                                <Link href={'https://www.facebook.com/profile.php?id=100090333447814'} target={"_blank"}
                                       className={styles.boton + ' ' + styles.facebook}>
                                     <img src={'/facebook.png'} alt="facebook"/>
                                     <span>Síguenos en Facebook</span>
