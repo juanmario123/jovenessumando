@@ -62,7 +62,7 @@ export default function Home() {
                             <>
                                 <Image className={styles.imagen} src="/JS.png" alt="Jovenes Sumando" height="150"
                                        width="300"/>
-                                <span className={styles.spanLider}> Samuel Terán</span>
+                                <span className={styles.spanLider}> Samuel Terán Herrera</span>
                                 <span className={styles.spanNombramiento}> Líder Juvenil Estatal</span>
                                 <Link href={'https://www.facebook.com/profile.php?id=100090333447814'} target={"_blank"}
                                       className={styles.boton + ' ' + styles.facebook}>
