@@ -41,14 +41,22 @@
 }
 
 .loginContainer button {
-    width: 100%;
-    background-image: linear-gradient(to right bottom, #a1c4fd, #c2e9fb);
+    width: 1%;
+    background-image: url('../public/back.png'), linear-gradient(5deg, #aa1744 0%, #aa1744 50%, #aa1744 100%);
+    background-repeat: no-repeat;
+    background-position: center; /* ajusta la posición de la imagen */
+    background-size: auto 100%; /* ajusta el tamaño de la imagen */
     border: none;
-    padding: .8em;
-    text-transform: uppercase;
+    padding: 1.4rem;
     font-weight: bold;
     cursor: pointer;
+    border-radius:.8em ;
+    margin: .5rem auto auto;
+}
 
+.loginContainer button:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 .h2 {
@@ -56,12 +64,11 @@
 }
 
 .imagen {
-    width: 100%;
-    height: 100%;
     margin-bottom: 20px;
 }
 
 .imagen:hover {
+    transition: all 0.4s ease-in-out;
     transform: rotate(5deg) scale(1.1);
 }
 
@@ -86,7 +93,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     padding: 3px;
     margin: 6px 0;
     transition: all 0.2s ease-in-out;
@@ -106,6 +113,9 @@
 .tiktok{
     background-color: #000;
 }
+.youtube{
+    background-color: #FF0000;
+}
 
 .boton:hover {
     transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el cursor */
@@ -117,3 +127,19 @@
     margin-bottom: 1.5rem;
 }
 
+.spanLider{
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: .1rem;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.spanNombramiento {
+    color: #000000;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 10px;
+}
