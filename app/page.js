@@ -29,7 +29,7 @@ export default function Home() {
     }
 
     const socialNetworks = Object.keys(selectedMunicipio).map((key) => {
-        if (key === 'name' || key === 'logo' || key === 'candidato') return false
+        if (key === 'name' || key === 'logo' || key === 'candidato' || key === 'lider') return false
         return key
     }).filter((key) => key).sort((a, b) => a.localeCompare(b))
 
@@ -52,8 +52,11 @@ export default function Home() {
                                 <>
                                     <Image className={styles.imagen} src={selectedMunicipio.logo} alt="Jovenes Sumando"
                                            height="150" width="300"/>
-                                    <span className={styles.spanLider}>{selectedMunicipio.candidato}</span>
-                                    <span className={styles.spanNombramiento}> Candidato a la Presidencia MPAL.</span>
+                                    <span className={styles.spanResponsable}>{selectedMunicipio.candidato}</span>
+                                    <span className={styles.spanNombramiento}> Coordinador municipal de SUMA</span>
+
+                                    <span className={styles.spanResponsable}>{selectedMunicipio.candidato}</span>
+                                    <span className={styles.spanNombramiento}> Lider municipal de Jovenes Sumando</span>
                                     {Buttons}
                                     <button onClick={resetHandler}></button>
                                 </>
@@ -62,7 +65,7 @@ export default function Home() {
                             <>
                                 <Image className={styles.imagen} src="/JS.png" alt="Jovenes Sumando" height="150"
                                        width="300"/>
-                                <span className={styles.spanLider}> Samuel Terán Herrera</span>
+                                <span className={styles.spanResponsable}> Samuel Terán Herrera</span>
                                 <span className={styles.spanNombramiento}> Líder Juvenil Estatal</span>
                                 <Link href={'https://www.facebook.com/profile.php?id=100090333447814'} target={"_blank"}
                                       className={styles.boton + ' ' + styles.facebook}>

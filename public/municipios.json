@@ -2,13 +2,22 @@
   {
     "name": "Aquismón",
     "logo": "",
-    "facebook": "",
-    "candidato": "El Piri"
+    "facebook": "https://www.facebook.com/profile.php?id=100092199401716",
+    "candidato": "El Piri",
+    "lider": ""
   },
   {
     "name": "Tampamolón",
     "logo": "",
     "facebook": "",
-    "candidato": "El Yoco"
+    "candidato": "El Yoco",
+    "lider": ""
+  },
+  {
+    "name": "Tanlajás",
+    "logo": "",
+    "facebook": "https://www.facebook.com/profile.php?id=100092315285940",
+    "candidato": "El Chino",
+    "lider": ""
   }
 ]
