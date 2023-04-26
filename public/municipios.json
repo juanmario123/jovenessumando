@@ -3,28 +3,28 @@
     "name": "Aquismón",
     "logo": "/logosMunicipales/Aquismón.webp",
     "facebook": "https://www.facebook.com/profile.php?id=100092199401716",
-    "candidato": "El Piri",
-    "lider": ""
+    "candidato": "Jose Blanco",
+    "lider": "------"
   },
   {
     "name": "Tampamolón",
     "logo": "/logosMunicipales/Tampamolón.webp",
     "facebook": "https://www.facebook.com/profile.php?id=100091820094995",
-    "candidato": "El Yoco",
-    "lider": ""
+    "candidato": "Eulogio Mejía",
+    "lider": "Isidro Mejía"
   },
   {
     "name": "Tanlajás",
     "logo": "/logosMunicipales/Tanlajás.webp",
     "facebook": "https://www.facebook.com/profile.php?id=100092315285940",
-    "candidato": "El Chino",
-    "lider": ""
+    "candidato": "Humberto Lucero",
+    "lider": "------"
   },
   {
     "name": "Ciudad Valles",
     "logo": "/logosMunicipales/Ciudad Valles.webp",
     "facebook": "",
-    "candidato": "El Paco",
-    "lider": ""
+    "candidato": "------",
+    "lider": "------"
   }
 ]
