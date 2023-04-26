@@ -50,7 +50,7 @@ export default function Home() {
                     <div className={styles.loginContainer}>
                         {selectedMunicipio ? (
                                 <>
-                                    <Image className={styles.imagen} src={selectedMunicipio.logo} unoptimized alt="Jovenes Sumando" height="150" width="300"/>
+                                    <Image className={styles.imagen} src={selectedMunicipio.logo} unoptimized priority alt="Jovenes Sumando" height="150" width="300"/>
                                     <span className={styles.spanResponsable}>{selectedMunicipio.candidato}</span>
                                     <span className={styles.spanNombramiento}> Coordinador municipal de SUMA</span>
 
@@ -62,7 +62,7 @@ export default function Home() {
                             )
                             :
                             <>
-                                <Image className={styles.imagen} src="/JS.webp" alt="Jovenes Sumando" unoptimized height="150" width="300"/>
+                                <Image className={styles.imagen} src="/JS.webp" alt="Jovenes Sumando" unoptimized priority height="150" width="300"/>
                                 <span className={styles.spanResponsable}> Samuel Terán Herrera</span>
                                 <span className={styles.spanNombramiento}> Líder Juvenil Estatal</span>
                                 <Link href={'https://www.facebook.com/profile.php?id=100090333447814'} target={"_blank"}
@@ -94,7 +94,5 @@ export default function Home() {
                 </main>
             </div>
         </div>
-
-
     )
 }
