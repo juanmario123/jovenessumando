@@ -1,23 +1,30 @@
 [
   {
     "name": "Aquismón",
-    "logo": "",
+    "logo": "/logosMunicipales/Aquismón.webp",
     "facebook": "https://www.facebook.com/profile.php?id=100092199401716",
     "candidato": "El Piri",
     "lider": ""
   },
   {
     "name": "Tampamolón",
-    "logo": "",
+    "logo": "/logosMunicipales/Tampamolón.webp",
     "facebook": "https://www.facebook.com/profile.php?id=100091820094995",
     "candidato": "El Yoco",
     "lider": ""
   },
   {
     "name": "Tanlajás",
-    "logo": "",
+    "logo": "/logosMunicipales/Tanlajás.webp",
     "facebook": "https://www.facebook.com/profile.php?id=100092315285940",
     "candidato": "El Chino",
+    "lider": ""
+  },
+  {
+    "name": "Ciudad Valles",
+    "logo": "/logosMunicipales/Ciudad Valles.webp",
+    "facebook": "",
+    "candidato": "El Paco",
     "lider": ""
   }
 ]

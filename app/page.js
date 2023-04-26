@@ -50,8 +50,7 @@ export default function Home() {
                     <div className={styles.loginContainer}>
                         {selectedMunicipio ? (
                                 <>
-                                    <Image className={styles.imagen} src={selectedMunicipio.logo} alt="Jovenes Sumando"
-                                           height="150" width="300"/>
+                                    <Image className={styles.imagen} src={selectedMunicipio.logo} unoptimized alt="Jovenes Sumando" height="150" width="300"/>
                                     <span className={styles.spanResponsable}>{selectedMunicipio.candidato}</span>
                                     <span className={styles.spanNombramiento}> Coordinador municipal de SUMA</span>
 
@@ -63,8 +62,7 @@ export default function Home() {
                             )
                             :
                             <>
-                                <Image className={styles.imagen} src="/JS.png" alt="Jovenes Sumando" height="150"
-                                       width="300"/>
+                                <Image className={styles.imagen} src="/JS.webp" alt="Jovenes Sumando" unoptimized height="150" width="300"/>
                                 <span className={styles.spanResponsable}> Samuel Terán Herrera</span>
                                 <span className={styles.spanNombramiento}> Líder Juvenil Estatal</span>
                                 <Link href={'https://www.facebook.com/profile.php?id=100090333447814'} target={"_blank"}
@@ -91,6 +89,7 @@ export default function Home() {
                                 <option key={municipio.name} value={municipio.name}>{municipio.name}</option>
                             ))}
                         </select>
+                        <img className={styles.contador} src="https://counter2.optistats.ovh/private/contadorvisitasgratis.php?c=gqgseubb6wy991cxxalelqzqd3zjsfma" title="contador de visitas" alt="contador de visitas"/>
                     </div>
                 </main>
             </div>
