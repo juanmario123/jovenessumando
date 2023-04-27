@@ -40,7 +40,7 @@
 
 .loginContainer button {
     width: 1%;
-    background-image: url('../public/back.png'), linear-gradient(5deg, #aa1744 0%, #aa1744 50%, #aa1744 100%);
+    background-image: url('../public/back.png'), none;
     background-repeat: no-repeat;
     background-position: center; /* ajusta la posición de la imagen */
     background-size: auto 100%; /* ajusta el tamaño de la imagen */

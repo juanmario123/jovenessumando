@@ -55,7 +55,7 @@ export default function Home() {
                                     <span className={styles.spanNombramiento}> Coordinador municipal de SUMA</span>
 
                                     <span className={styles.spanResponsable}>{selectedMunicipio.lider}</span>
-                                    <span className={styles.spanNombramiento}> Lider municipal de Jovenes Sumando</span>
+                                    <span className={styles.spanNombramiento}> Líder municipal de Jóvenes Sumando</span>
                                     {Buttons}
                                     <button onClick={resetHandler}></button>
                                 </>
@@ -89,7 +89,8 @@ export default function Home() {
                                 <option key={municipio.name} value={municipio.name}>{municipio.name}</option>
                             ))}
                         </select>
-                        <img className={styles.contador} src="https://counter2.optistats.ovh/private/contadorvisitasgratis.php?c=gqgseubb6wy991cxxalelqzqd3zjsfma" title="contador de visitas" alt="contador de visitas"/>
+                        <img className={styles.contador} src="https://counter2.optistats.ovh/private/contadorvisitasgratis.php?c=byhmxdm4bz6p263319eygy3q74wyzlh3" title="contador de visitas" alt="contador de visitas"/>
+                        
                     </div>
                 </main>
             </div>
