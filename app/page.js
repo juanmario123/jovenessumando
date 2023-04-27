@@ -54,7 +54,7 @@ export default function Home() {
                                     <span className={styles.spanResponsable}>{selectedMunicipio.candidato}</span>
                                     <span className={styles.spanNombramiento}> Coordinador municipal de SUMA</span>
 
-                                    <span className={styles.spanResponsable}>{selectedMunicipio.candidato}</span>
+                                    <span className={styles.spanResponsable}>{selectedMunicipio.lider}</span>
                                     <span className={styles.spanNombramiento}> Lider municipal de Jovenes Sumando</span>
                                     {Buttons}
                                     <button onClick={resetHandler}></button>
